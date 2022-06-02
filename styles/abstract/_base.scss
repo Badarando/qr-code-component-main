@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$branco: hsl(0, 0%, 100%);
+$cinza-claro: hsl(212, 45%, 89%);
+$azul-acizentado: hsl(220, 15%, 55%);
+$azul-escuro: hsl(218, 44%, 22%);
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background: $cinza-claro;
+}
